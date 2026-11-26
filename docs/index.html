@@ -1,14 +1,14 @@
 <!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Laqeeta | لقيتها</title><meta name="description" content="Photograph an item and where you put it. Search later by words. Private, offline, free.">
 <meta name="theme-color" content="#10243a"><meta name="color-scheme" content="light dark"><link rel="icon" href="logo.svg"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="brand"><img src="logo.svg" alt=""><div><b data-t="name">لقيتها</b><small data-t="tag"></small></div></div><button id="lang" class="ghost">EN</button></header>
+<header><div class="brand"><img src="logo.svg" alt=""><div><b data-t="name">لقيتها</b><small data-t="tag"></small></div></div><button id="lang" class="ghost" aria-label="Language / اللغة">EN</button></header>
 <main>
 <section class="search"><input id="q" type="search" aria-label="search" data-p="ph" autocomplete="off"><div id="count" class="count" aria-live="polite"></div><div id="chips"></div></section>
 <section id="list" class="grid"></section><p id="empty" class="empty" hidden></p>
 </main>
 <footer><span data-t="priv"></span> <button id="export" class="ghost" data-t="exp"></button> <label class="ghost btn"><span data-t="imp"></span><input id="import" type="file" accept=".json" hidden></label></footer>
-<button id="add" class="fab" aria-label="+">＋</button>
-<dialog id="dlg"><form id="form" method="dialog">
+<button id="add" class="fab" aria-label="Add item / إضافة">＋</button>
+<dialog id="dlg" aria-labelledby="dt"><form id="form" method="dialog">
 <h2 id="dt"></h2>
 <div class="shots"><label class="shot" id="s1"><input type="file" accept="image/*" capture="environment" hidden data-i="0"><span data-t="item"></span><button type="button" class="x" data-i="0" aria-label="remove" hidden>✕</button></label><label class="shot" id="s2"><input type="file" accept="image/*" capture="environment" hidden data-i="1"><span data-t="place"></span><button type="button" class="x" data-i="1" aria-label="remove" hidden>✕</button></label></div>
 <label><span data-t="name1"></span><input id="title" required></label>
@@ -16,6 +16,6 @@
 <label><span data-t="notes"></span><textarea id="notes" rows="2"></textarea></label>
 <div class="row"><button type="submit" class="primary" data-t="save"></button><button type="button" id="cancel" class="ghost" data-t="cancel"></button><button type="button" id="del" class="danger" data-t="del" hidden></button></div>
 </form></dialog>
-<dialog id="view"><div id="vbody"></div><div class="row"><button id="vedit" class="primary" data-t="edit"></button><button id="vfav" class="ghost" aria-label="favorite">☆</button><button id="vclose" class="ghost" data-t="close"></button></div></dialog>
+<dialog id="view" aria-label="details"><div id="vbody"></div><div class="row"><button id="vedit" class="primary" data-t="edit"></button><button id="vfav" class="ghost" aria-label="favorite">☆</button><button id="vclose" class="ghost" data-t="close"></button></div></dialog>
 <dialog id="lb" aria-label="photo"><img alt=""></dialog><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 <script src="app.js"></script></body></html>
