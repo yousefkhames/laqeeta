@@ -26,3 +26,4 @@ mark{background:#ffd9a8;color:#10243a;border-radius:3px;padding:0 2px}.count{fon
 :focus-visible{outline:3px solid #ffb48f;outline-offset:2px}.chip{color:var(--ink);font:inherit;font-size:.9rem}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 .ob{max-width:340px;margin:0 auto;color:var(--ink)}.ob ol{text-align:start;line-height:2;padding-inline-start:1.4em}
 [hidden]{display:none!important}
+.sw{position:relative}.qx{position:absolute;top:50%;transform:translateY(-50%);inset-inline-start:10px;background:var(--line);border:0;border-radius:50%;width:26px;height:26px;color:var(--ink)}#q{padding-inline-start:44px}input[type=search]::-webkit-search-cancel-button{display:none}
