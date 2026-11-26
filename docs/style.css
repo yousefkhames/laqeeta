@@ -31,3 +31,4 @@ mark{background:#ffd9a8;color:#10243a;border-radius:3px;padding:0 2px}.count{fon
 .tag{color:#c2491a;font-weight:600;text-decoration:none;margin-inline-end:6px}@media(prefers-color-scheme:dark){.tag{color:#ff9d70}}
 .hist{color:var(--mut);font-size:.85rem;margin:2px 0}
 .hb{display:flex;gap:8px}
+.pi{vertical-align:-2px}
