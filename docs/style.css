@@ -24,3 +24,4 @@ dialog label{display:block;margin:10px 0;font-size:.85rem;color:var(--mut)}dialo
 mark{background:#ffd9a8;color:#10243a;border-radius:3px;padding:0 2px}.count{font-size:.85rem;color:var(--mut);margin-top:8px;min-height:1em}
 .shot{position:relative}.x{position:absolute;top:6px;inset-inline-end:6px;width:28px;height:28px;border-radius:50%;border:0;background:#000a;color:#fff}#lb{padding:0;background:#000;width:96vw;max-width:96vw}#lb img{width:100%;max-height:90vh;object-fit:contain;display:block}.zoomable{cursor:zoom-in}
 :focus-visible{outline:3px solid #ffb48f;outline-offset:2px}.chip{color:var(--ink);font:inherit;font-size:.9rem}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.ob{max-width:340px;margin:0 auto;color:var(--ink)}.ob ol{text-align:start;line-height:2;padding-inline-start:1.4em}
