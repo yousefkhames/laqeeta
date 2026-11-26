@@ -10,6 +10,15 @@
 
 Screenshots use generated sample images, not real photos.
 
+## Screenshots
+
+Captured from the live site (https://yousefkhames.github.io/laqeeta/).
+
+<p>
+  <img src="docs/screenshots/live-desktop.png" alt="laqeeta desktop view" width="640">
+  <img src="docs/screenshots/live-mobile.png" alt="laqeeta mobile view" width="200">
+</p>
+
 ## Why
 "Where did I put the charger?" is a small problem that eats time. Laqeeta keeps one card per thing: a photo of the item, a photo of its spot, a name and a place. Typing a word you remember finds it.
 
