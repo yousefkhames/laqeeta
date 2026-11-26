@@ -43,11 +43,18 @@ python3 -m http.server 8000
 Open http://localhost:8000. The site is served from `docs/` by GitHub Pages.
 
 ## Tested
-Scripted click-through in headless Chrome (add with photos, save, typo and place search, highlight, view, favorite, delete and undo, language switch) at desktop and mobile sizes in Arabic and English, with no console errors. Not yet tested on a real phone camera or iOS Safari.
+`tests/e2e.mjs` is a real-browser click-through (puppeteer-core plus Chrome, 29 checks): Arabic RTL default, empty state, add with a photo, Save and add another, validation, Arabic and typo search, no-result state, favorite, edit with place history, place filter and rename, delete and undo, JSON export and import round trip, CSV export with a formula guard, rejecting hostile or broken import files, language and theme toggles, `#q=` links, keyboard shortcut, offline reload.
+```
+npm install
+node tests/e2e.mjs            # serves ./docs itself
+node tests/e2e.mjs https://yousefkhames.github.io/laqeeta/   # or test the live site
+```
+Not tested on a real phone camera or iOS Safari.
 
 ## Honest limits
 - Data stays in one browser on one device. Use Export to move or back it up. Clearing site data deletes items.
 - No AI auto-tagging or photo recognition. Search is over the words you type.
+- Importing a backup keeps only valid fields and data-URL images; anything else is dropped.
 - Photos are resized (about 900 px) to keep storage small.
 
 ## License
