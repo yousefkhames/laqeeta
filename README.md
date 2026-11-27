@@ -12,7 +12,7 @@ Screenshots use generated sample images, not real photos.
 
 ## Screenshots
 
-Captured from the live site (https://yousefkhames.github.io/laqeeta/).
+Captured from the live site (https://yousefkhames.github.io/laqeeta/) with sample demo content entered for the screenshot. It is not real user data.
 
 <p>
   <img src="docs/screenshots/live-desktop.png" alt="laqeeta desktop view" width="640">
